@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Инструкции</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">Головна</a>
+        <a href="/about">Про бота</a>
+        <a href="/instructions">Інструкції</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Як використовувати бота</h2>
+      <ol>
+        <li>Запустіть бота, відправивши команду /start.</li>
+        <li>Введіть суму, яку хочете конвертувати.</li>
+        <li>
+          Виберіть валюти для конвертації з запропонованих вариантів або введіть
+          свою пару валют.
+        </li>
+        <li>Підтвердіть і виконайте оплату, якщо потрібно.</li>
+        <li>Отримайте результат конвертації.</li>
+      </ol>
+    </main>
+  </body>
+</html>
